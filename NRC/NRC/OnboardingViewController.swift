@@ -8,7 +8,9 @@
 import UIKit
 
 class OnboardingViewController: UIViewController {
+    
     let messages: [OnboardingMessage] = OnboardingMessage.messages
+    
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var collectionView: UICollectionView!
     
